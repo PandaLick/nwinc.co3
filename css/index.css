@@ -1,0 +1,51 @@
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial; }
+
+.projects {
+  margin-top: 100px; }
+
+.project {
+  -o-transition: width .3s ease;
+  -ms-transition: width .3s ease;
+  -moz-transition: width .3s ease;
+  -webkit-transition: width .3s ease;
+  transition: width 2s ease; }
+
+.project:hover {
+  height: 370px;
+  width: 100%; }
+
+.footerRow {
+  margin-top: 100px;
+  height: 100px;
+  padding-left: 55px;
+  padding-right: 55px; }
+  .footerRow .footer {
+    border-top: 1px solid black;
+    padding-top: 40px; }
+    .footerRow .footer h4 {
+      display: inline;
+      font-size: 16px;
+      letter-spacing: 2px; }
+    .footerRow .footer .socialButton {
+      float: right;
+      width: 40px;
+      height: 40px;
+      margin: 0px 8px;
+      border-radius: 100%;
+      border: 2px solid black;
+      position: relative; }
+      .footerRow .footer .socialButton i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+
+/* Small only */
+/* Medium and up */
+/* Medium only */
+/* Large and up */
+/* Large only */
