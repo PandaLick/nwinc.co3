@@ -5,52 +5,54 @@
    max-width: initial;
 }
 
-.projects {
-	margin-top: 100px;
+.projectCont {
+	h1 {
+		text-align: center;
+		color: white;
+		font-family: 'Open Sans', serif;
+	}
+
+	p {
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		font-family: 'Open Sans', serif;
+	}
 }
 
-.project {
+.portfolio {
+	background: url('https://unsplash.it/400/300');
 
-	-o-transition:width .3s ease;
-	-ms-transition:width .3s ease;
-	-moz-transition:width .3s ease;
-	-webkit-transition:width .3s ease;
-	transition:width 2s ease;
+	.card {
+		margin: 80px;
+		padding: 50px;
+		background-color: rgba(0,0,0,0.3);
+	}
 }
 
-.project:hover {
-	height: 370px;
-	width: 100%;
+.hwad {
+	background: url('https://unsplash.it/500/300');
+
+	.card {
+		margin: 40px;
+		padding: 20px;
+		background-color: rgba(0,0,0,0.3);
+	}
 }
 
-// .imgWrap {
-// 	position: relative;
-// 	width: 100%;
-// 	height: 100%;
+.ksctool {
+	background: url('https://unsplash.it/600/300');
 
-// 	.imgDesc {
-// 		margin: 0px;
-// 		position: absolute;
-// 		top: 0;
-// 		bottom: 0;
-// 		left: 0;
-// 		right: 0;
-// 	  	background: rgba(128, 206, 190, 0.70);
-// 		color: #fff;
-// 	}
+	.card {
+		margin: 40px;
+		padding: 20px;
+		background-color: rgba(0,0,0,0.3);
+	}
+}
 
-// 	h1 {
-// 		color: white;
-// 		font-family: 'Open Sans', sans-serif;
-// 		font-weight: 700;
-// 		margin-left: 20px;
-// 		margin-top: 10px;
-// 	}
 
-// }
-
+// footer
 .footerRow {
-
 
 	margin-top: 100px;
 

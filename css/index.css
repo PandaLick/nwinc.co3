@@ -4,19 +4,36 @@
   margin-right: auto;
   max-width: initial; }
 
-.projects {
-  margin-top: 100px; }
+.projectCont h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', serif; }
+.projectCont p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans', serif; }
 
-.project {
-  -o-transition: width .3s ease;
-  -ms-transition: width .3s ease;
-  -moz-transition: width .3s ease;
-  -webkit-transition: width .3s ease;
-  transition: width 2s ease; }
+.portfolio {
+  background: url("https://unsplash.it/400/300"); }
+  .portfolio .card {
+    margin: 80px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3); }
 
-.project:hover {
-  height: 370px;
-  width: 100%; }
+.hwad {
+  background: url("https://unsplash.it/500/300"); }
+  .hwad .card {
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); }
+
+.ksctool {
+  background: url("https://unsplash.it/600/300"); }
+  .ksctool .card {
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); }
 
 .footerRow {
   margin-top: 100px;
