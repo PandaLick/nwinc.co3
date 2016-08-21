@@ -16,6 +16,10 @@ $mobile-font-size-paragraph: 16px;
    max-width: initial;
 }
 
+.projectRow:first-of-type {
+	padding-top: 55px;
+}
+
 .projectRow {
 
 	padding: 0px 0px;
@@ -177,6 +181,21 @@ $mobile-font-size-paragraph: 16px;
 				left: 50%;
 				transform: translate(-50%, -50%);
 			}
+		}
+
+		.linkedin:hover {
+			border: 1px solid #0077b5;
+			background: #0077b5;
+		}
+
+		.github:hover {
+			border: 1px solid #999999;
+			background: #999999;
+		}
+
+		.twitter:hover {
+			border: 1px solid #1da1f2;
+			background: #1da1f2;
 		}
 	}
 }
