@@ -37,7 +37,7 @@ $mobile-font-size-paragraph: 16px;
 
 	.portfolio {
 		min-height: 188px;
-		background: url('https://unsplash.it/400/300');
+		background: #138FE7;
 
 		position: relative;
 
@@ -48,13 +48,14 @@ $mobile-font-size-paragraph: 16px;
 			transform: translate(-50%, -50%);
 
 			padding: 25px;
-			background-color: rgba(0,0,0,0.3);
+			// background-color: rgba(0,0,0,0.3);
 		}
 	}
 
 	.hwad {
 		min-height: 188px;
-		background: url('https://unsplash.it/500/300');
+		background: url('../img/hwad.jpg') no-repeat center center; 
+		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
 
 		position: relative;
 
@@ -70,7 +71,59 @@ $mobile-font-size-paragraph: 16px;
 	}
 	.ksctool {
 		min-height: 188px;
-		background: url('https://unsplash.it/600/300');
+		background: url('../img/ksctoolCover.png') no-repeat center center; 
+		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
+
+		position: relative;
+
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			padding: 25px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+	.uachieve {
+		min-height: 188px;
+		background: url('../img/uachieve.jpg') no-repeat center center; 
+		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
+
+		position: relative;
+
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			padding: 25px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+	.hackthehill {
+		min-height: 188px;
+		background: url('../img/hackthehill.jpg') no-repeat center center; 
+		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
+
+		position: relative;
+
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			padding: 25px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+	.naauao {
+		min-height: 188px;
+		background: url('../img/naauao.jpeg') no-repeat center center; 
+		background-size: 190%; //this will change along with it's med-media-query depending on img dimensions
 
 		position: relative;
 
@@ -149,25 +202,48 @@ $mobile-font-size-paragraph: 16px;
 
 		.card {
 			padding: 50px;
-			background-color: rgba(0,0,0,0.3);
 		}
 	}
 
 	.hwad {
 		min-height: 447px;
+		background-size: 150%; //this will change along with it's med-media-query depending on img dimensions
 
 		.card {
 			padding: 50px;
-			background-color: rgba(0,0,0,0.3);
 		}
 	}
 
 	.ksctool {
 		min-height: 447px;
+		background-size: 150%; //this will change along with it's med-media-query depending on img dimensions
 
 		.card {
 			padding: 50px;
-			background-color: rgba(0,0,0,0.3);
+		}
+	}
+	.uachieve {
+		min-height: 447px;
+		background-size: 120%; //this will change along with it's med-media-query depending on img dimensions
+
+		.card {
+			padding: 50px;
+		}
+	}
+	.hackthehill {
+		min-height: 447px;
+		background-size: 120%; //this will change along with it's med-media-query depending on img dimensions
+
+		.card {
+			padding: 50px;
+		}
+	}
+	.naauao {
+		min-height: 447px;
+		background-size: 150%; //this will change along with it's med-media-query depending on img dimensions
+
+		.card {
+			padding: 50px;
 		}
 	}
 }

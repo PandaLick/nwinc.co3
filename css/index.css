@@ -17,18 +17,18 @@
     font-family: 'Open Sans', serif; }
   .projectRow .portfolio {
     min-height: 188px;
-    background: url("https://unsplash.it/400/300");
+    background: #138FE7;
     position: relative; }
     .projectRow .portfolio .card {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      padding: 25px;
-      background-color: rgba(0, 0, 0, 0.3); }
+      padding: 25px; }
   .projectRow .hwad {
     min-height: 188px;
-    background: url("https://unsplash.it/500/300");
+    background: url("../img/hwad.jpg") no-repeat center center;
+    background-size: 151%;
     position: relative; }
     .projectRow .hwad .card {
       position: absolute;
@@ -39,9 +39,46 @@
       background-color: rgba(0, 0, 0, 0.3); }
   .projectRow .ksctool {
     min-height: 188px;
-    background: url("https://unsplash.it/600/300");
+    background: url("../img/ksctoolCover.png") no-repeat center center;
+    background-size: 151%;
     position: relative; }
     .projectRow .ksctool .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 25px;
+      background-color: rgba(0, 0, 0, 0.3); }
+  .projectRow .uachieve {
+    min-height: 188px;
+    background: url("../img/uachieve.jpg") no-repeat center center;
+    background-size: 151%;
+    position: relative; }
+    .projectRow .uachieve .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 25px;
+      background-color: rgba(0, 0, 0, 0.3); }
+  .projectRow .hackthehill {
+    min-height: 188px;
+    background: url("../img/hackthehill.jpg") no-repeat center center;
+    background-size: 151%;
+    position: relative; }
+    .projectRow .hackthehill .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 25px;
+      background-color: rgba(0, 0, 0, 0.3); }
+  .projectRow .naauao {
+    min-height: 188px;
+    background: url("../img/naauao.jpeg") no-repeat center center;
+    background-size: 190%;
+    position: relative; }
+    .projectRow .naauao .card {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -85,18 +122,32 @@
     .projectRow .portfolio {
       min-height: 447px; }
       .projectRow .portfolio .card {
-        padding: 50px;
-        background-color: rgba(0, 0, 0, 0.3); }
+        padding: 50px; }
     .projectRow .hwad {
-      min-height: 447px; }
+      min-height: 447px;
+      background-size: 150%; }
       .projectRow .hwad .card {
-        padding: 50px;
-        background-color: rgba(0, 0, 0, 0.3); }
+        padding: 50px; }
     .projectRow .ksctool {
-      min-height: 447px; }
+      min-height: 447px;
+      background-size: 150%; }
       .projectRow .ksctool .card {
-        padding: 50px;
-        background-color: rgba(0, 0, 0, 0.3); }
+        padding: 50px; }
+    .projectRow .uachieve {
+      min-height: 447px;
+      background-size: 120%; }
+      .projectRow .uachieve .card {
+        padding: 50px; }
+    .projectRow .hackthehill {
+      min-height: 447px;
+      background-size: 120%; }
+      .projectRow .hackthehill .card {
+        padding: 50px; }
+    .projectRow .naauao {
+      min-height: 447px;
+      background-size: 150%; }
+      .projectRow .naauao .card {
+        padding: 50px; }
 
   .footerRow {
     padding-left: 55px;
