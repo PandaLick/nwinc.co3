@@ -18,7 +18,7 @@ $mobile-font-size-paragraph: 16px;
 
 .projectRow {
 
-	padding: 0px 55px;
+	padding: 0px 0px;
 
 	.projectCont {
 		h1 {
@@ -36,7 +36,7 @@ $mobile-font-size-paragraph: 16px;
 	}
 
 	.portfolio {
-		min-height: 447px;
+		min-height: 188px;
 		background: url('https://unsplash.it/400/300');
 
 		position: relative;
@@ -47,13 +47,13 @@ $mobile-font-size-paragraph: 16px;
 			left: 50%;
 			transform: translate(-50%, -50%);
 
-			padding: 50px;
+			padding: 25px;
 			background-color: rgba(0,0,0,0.3);
 		}
 	}
 
 	.hwad {
-		min-height: 447px;
+		min-height: 188px;
 		background: url('https://unsplash.it/500/300');
 
 		position: relative;
@@ -64,13 +64,12 @@ $mobile-font-size-paragraph: 16px;
 			left: 50%;
 			transform: translate(-50%, -50%);
 
-			padding: 50px;
+			padding: 25px;
 			background-color: rgba(0,0,0,0.3);
 		}
 	}
-
 	.ksctool {
-		min-height: 447px;
+		min-height: 188px;
 		background: url('https://unsplash.it/600/300');
 
 		position: relative;
@@ -81,7 +80,7 @@ $mobile-font-size-paragraph: 16px;
 			left: 50%;
 			transform: translate(-50%, -50%);
 
-			padding: 50px;
+			padding: 25px;
 			background-color: rgba(0,0,0,0.3);
 		}
 	}
@@ -135,9 +134,43 @@ $mobile-font-size-paragraph: 16px;
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
-	.projectRow {
-		
+.projectRow {
+
+	padding: 0px 55px;
+
+	.projectCont {
+		p {
+			font-size: 20px;
+		}
 	}
+
+	.portfolio {
+		min-height: 447px;
+
+		.card {
+			padding: 50px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+
+	.hwad {
+		min-height: 447px;
+
+		.card {
+			padding: 50px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+
+	.ksctool {
+		min-height: 447px;
+
+		.card {
+			padding: 50px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+}
 
 	// footer
 	.footerRow {

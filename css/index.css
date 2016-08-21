@@ -5,7 +5,7 @@
   max-width: initial; }
 
 .projectRow {
-  padding: 0px 55px; }
+  padding: 0px 0px; }
   .projectRow .projectCont h1 {
     text-align: center;
     color: white;
@@ -16,7 +16,7 @@
     font-size: 20px;
     font-family: 'Open Sans', serif; }
   .projectRow .portfolio {
-    min-height: 447px;
+    min-height: 188px;
     background: url("https://unsplash.it/400/300");
     position: relative; }
     .projectRow .portfolio .card {
@@ -24,10 +24,10 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      padding: 50px;
+      padding: 25px;
       background-color: rgba(0, 0, 0, 0.3); }
   .projectRow .hwad {
-    min-height: 447px;
+    min-height: 188px;
     background: url("https://unsplash.it/500/300");
     position: relative; }
     .projectRow .hwad .card {
@@ -35,10 +35,10 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      padding: 50px;
+      padding: 25px;
       background-color: rgba(0, 0, 0, 0.3); }
   .projectRow .ksctool {
-    min-height: 447px;
+    min-height: 188px;
     background: url("https://unsplash.it/600/300");
     position: relative; }
     .projectRow .ksctool .card {
@@ -46,7 +46,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      padding: 50px;
+      padding: 25px;
       background-color: rgba(0, 0, 0, 0.3); }
 
 .footerRow {
@@ -78,6 +78,26 @@
 /* Small only */
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  .projectRow {
+    padding: 0px 55px; }
+    .projectRow .projectCont p {
+      font-size: 20px; }
+    .projectRow .portfolio {
+      min-height: 447px; }
+      .projectRow .portfolio .card {
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.3); }
+    .projectRow .hwad {
+      min-height: 447px; }
+      .projectRow .hwad .card {
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.3); }
+    .projectRow .ksctool {
+      min-height: 447px; }
+      .projectRow .ksctool .card {
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.3); }
+
   .footerRow {
     padding-left: 55px;
     padding-right: 55px; }
