@@ -1,3 +1,14 @@
+// $primary-color: #1e364a;
+// $secondary-color: #80CEBE;
+// $tertiary-color: #70AFA7;
+// $quaternary-color: #95A3AA;
+// $primary-font: 'Montserrat', sans-serif;
+// $secondary-font: 'Avenir', sans-serif;
+$desktop-font-size-header: 32px;
+$mobile-font-size-header: 24px;
+$desktop-font-size-paragraph: 18px;
+$mobile-font-size-paragraph: 16px;
+
 .fullWidth {
    width: 100%;
    margin-left: auto;
@@ -123,6 +134,11 @@
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+
+	.projectRow {
+		
+	}
+
 	// footer
 	.footerRow {
 
