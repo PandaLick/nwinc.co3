@@ -4,54 +4,68 @@
   margin-right: auto;
   max-width: initial; }
 
-.projectCont h1 {
-  text-align: center;
-  color: white;
-  font-family: 'Open Sans', serif; }
-.projectCont p {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-family: 'Open Sans', serif; }
-
-.portfolio {
-  background: url("https://unsplash.it/400/300"); }
-  .portfolio .card {
-    margin: 80px;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.3); }
-
-.hwad {
-  background: url("https://unsplash.it/500/300"); }
-  .hwad .card {
-    margin: 40px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3); }
-
-.ksctool {
-  background: url("https://unsplash.it/600/300"); }
-  .ksctool .card {
-    margin: 40px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3); }
+.projectRow {
+  padding: 0px 55px; }
+  .projectRow .projectCont h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', serif; }
+  .projectRow .projectCont p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', serif; }
+  .projectRow .portfolio {
+    min-height: 447px;
+    background: url("https://unsplash.it/400/300");
+    position: relative; }
+    .projectRow .portfolio .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.3); }
+  .projectRow .hwad {
+    min-height: 447px;
+    background: url("https://unsplash.it/500/300");
+    position: relative; }
+    .projectRow .hwad .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.3); }
+  .projectRow .ksctool {
+    min-height: 447px;
+    background: url("https://unsplash.it/600/300");
+    position: relative; }
+    .projectRow .ksctool .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.3); }
 
 .footerRow {
   margin-top: 100px;
   height: 100px;
-  padding-left: 55px;
-  padding-right: 55px; }
+  padding-left: 25px;
+  padding-right: 25px; }
   .footerRow .footer {
     border-top: 1px solid black;
     padding-top: 40px; }
     .footerRow .footer h4 {
       display: inline;
-      font-size: 16px;
+      font-size: 14px;
       letter-spacing: 2px; }
     .footerRow .footer .socialButton {
       float: right;
       width: 40px;
       height: 40px;
-      margin: 0px 8px;
+      margin: 0px 3px;
       border-radius: 100%;
       border: 2px solid black;
       position: relative; }
@@ -63,6 +77,14 @@
 
 /* Small only */
 /* Medium and up */
+@media screen and (min-width: 40em) {
+  .footerRow {
+    padding-left: 55px;
+    padding-right: 55px; }
+    .footerRow .footer h4 {
+      font-size: 16px; }
+    .footerRow .footer .socialButton {
+      margin: 0px 8px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */

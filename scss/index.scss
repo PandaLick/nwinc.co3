@@ -5,51 +5,76 @@
    max-width: initial;
 }
 
-.projectCont {
-	h1 {
-		text-align: center;
-		color: white;
-		font-family: 'Open Sans', serif;
+.projectRow {
+
+	padding: 0px 55px;
+
+	.projectCont {
+		h1 {
+			text-align: center;
+			color: white;
+			font-family: 'Open Sans', serif;
+		}
+
+		p {
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			font-family: 'Open Sans', serif;
+		}
 	}
 
-	p {
-		text-align: center;
-		color: white;
-		font-size: 20px;
-		font-family: 'Open Sans', serif;
+	.portfolio {
+		min-height: 447px;
+		background: url('https://unsplash.it/400/300');
+
+		position: relative;
+
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			padding: 50px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+
+	.hwad {
+		min-height: 447px;
+		background: url('https://unsplash.it/500/300');
+
+		position: relative;
+
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			padding: 50px;
+			background-color: rgba(0,0,0,0.3);
+		}
+	}
+
+	.ksctool {
+		min-height: 447px;
+		background: url('https://unsplash.it/600/300');
+
+		position: relative;
+
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			padding: 50px;
+			background-color: rgba(0,0,0,0.3);
+		}
 	}
 }
-
-.portfolio {
-	background: url('https://unsplash.it/400/300');
-
-	.card {
-		margin: 80px;
-		padding: 50px;
-		background-color: rgba(0,0,0,0.3);
-	}
-}
-
-.hwad {
-	background: url('https://unsplash.it/500/300');
-
-	.card {
-		margin: 40px;
-		padding: 20px;
-		background-color: rgba(0,0,0,0.3);
-	}
-}
-
-.ksctool {
-	background: url('https://unsplash.it/600/300');
-
-	.card {
-		margin: 40px;
-		padding: 20px;
-		background-color: rgba(0,0,0,0.3);
-	}
-}
-
 
 // footer
 .footerRow {
@@ -58,8 +83,8 @@
 
 	height: 100px;
 
-	padding-left: 55px;
-	padding-right: 55px;
+	padding-left: 25px;
+	padding-right: 25px;
 
 	.footer {
 		border-top: 1px solid black;
@@ -68,7 +93,7 @@
 
 		h4 {
 			display: inline;
-			font-size: 16px;
+			font-size: 14px;
 			letter-spacing: 2px;
 		}
 
@@ -77,7 +102,7 @@
 			width: 40px;
 			height: 40px;
 
-			margin: 0px 8px;
+			margin: 0px 3px;
 			border-radius: 100%;
 			border: 2px solid black;
 
@@ -97,7 +122,27 @@
 @media screen and (max-width: 39.9375em) {}
 
 /* Medium and up */
-@media screen and (min-width: 40em) {}
+@media screen and (min-width: 40em) {
+	// footer
+	.footerRow {
+
+		padding-left: 55px;
+		padding-right: 55px;
+
+		.footer {
+
+			h4 {
+				font-size: 16px;
+			}
+
+			.socialButton {
+
+				margin: 0px 8px;
+
+			}
+		}
+	}
+}
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
