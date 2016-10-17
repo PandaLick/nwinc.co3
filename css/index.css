@@ -4,6 +4,9 @@
   margin-right: auto;
   max-width: initial; }
 
+.projectRow:first-of-type {
+  padding-top: 55px; }
+
 .projectRow {
   padding: 0px 0px; }
   .projectRow .projectCont h1 {
@@ -111,6 +114,15 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); }
+    .footerRow .footer .linkedin:hover {
+      border: 1px solid #0077b5;
+      background: #0077b5; }
+    .footerRow .footer .github:hover {
+      border: 1px solid #999999;
+      background: #999999; }
+    .footerRow .footer .twitter:hover {
+      border: 1px solid #1da1f2;
+      background: #1da1f2; }
 
 /* Small only */
 /* Medium and up */
