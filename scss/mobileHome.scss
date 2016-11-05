@@ -3,7 +3,7 @@ $mobile-font-size-paragraph: 16px;
 
 @font-face {
   font-family: "Avenir";
-  src: url("../res/Avenir.ttf") format("truetype"); 
+  src: url("../res/Avenir.ttc") format("truetype"); 
 }
 
 .fullWidth {
@@ -68,10 +68,12 @@ $mobile-font-size-paragraph: 16px;
 .hero1 {
 	height: 100vh;
 	background-color: white;
+	background: url("/img/nick.gif") no-repeat top;
+	background-size: cover;
 
 	.hamburger {
 		background-color: transparent;
-		color: black;
+		color: white;
 		font-size: 32px;
 		font-weight: 700;
 		border: 0px;
@@ -84,7 +86,7 @@ $mobile-font-size-paragraph: 16px;
 	.content {
 		margin-top: 50%;
 		transform: translateY(-34px);
-		color: black;
+		color: white;
 		text-align: left;
 
 		.headers {
@@ -101,7 +103,7 @@ $mobile-font-size-paragraph: 16px;
 			font-family: 'Avenir';
 			font-size: 24px;
 			margin: 0px;
-			color: #8A8A8A;
+			color: white;
 		}
 
 		.arrowCont {

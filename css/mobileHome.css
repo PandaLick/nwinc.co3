@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Avenir";
-  src: url("../res/Avenir.ttf") format("truetype"); }
+  src: url("../res/Avenir.ttc") format("truetype"); }
 
 .fullWidth {
   width: 100%;
@@ -44,10 +44,12 @@
 
 .hero1 {
   height: 100vh;
-  background-color: white; }
+  background-color: white;
+  background: url("/img/nick.gif") no-repeat top;
+  background-size: cover; }
   .hero1 .hamburger {
     background-color: transparent;
-    color: black;
+    color: white;
     font-size: 32px;
     font-weight: 700;
     border: 0px;
@@ -58,7 +60,7 @@
   .hero1 .content {
     margin-top: 50%;
     transform: translateY(-34px);
-    color: black;
+    color: white;
     text-align: left; }
     .hero1 .content .headers {
       margin-left: 12px; }
@@ -70,7 +72,7 @@
       font-family: 'Avenir';
       font-size: 24px;
       margin: 0px;
-      color: #8A8A8A; }
+      color: white; }
     .hero1 .content .arrowCont {
       height: 425px;
       position: relative;
