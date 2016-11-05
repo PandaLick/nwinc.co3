@@ -56,9 +56,12 @@
     margin-right: 20px;
     margin-top: 20px; }
   .hero1 .content {
-    padding-left: 12px;
+    margin-top: 50%;
+    transform: translateY(-34px);
     color: black;
     text-align: left; }
+    .hero1 .content .headers {
+      margin-left: 12px; }
     .hero1 .content h1 {
       font-family: 'Montserrat';
       font-size: 48px;
@@ -68,6 +71,18 @@
       font-size: 24px;
       margin: 0px;
       color: #8A8A8A; }
+    .hero1 .content .arrowCont {
+      height: 425px;
+      position: relative;
+      padding: 0; }
+      .hero1 .content .arrowCont .arrow {
+        color: #8A8A8A;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        margin: 0; }
 
 .hero2 {
   background-color: black; }
