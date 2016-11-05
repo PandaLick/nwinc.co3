@@ -1,6 +1,11 @@
 $mobile-font-size-header: 24px;
 $mobile-font-size-paragraph: 16px;
 
+@font-face {
+  font-family: "Avenir";
+  src: url("../res/Avenir.ttf") format("truetype"); 
+}
+
 .fullWidth {
    width: 100%;
    margin-left: auto;
@@ -8,25 +13,94 @@ $mobile-font-size-paragraph: 16px;
    max-width: initial;
 }
 
+// off-canvas
+// 100% width
+.is-open-right {
+	transform: translate(-100%);
+}
+.off-canvas.position-right {
+	right: -100% !important;
+	top: 0;
+	width: 100% !important;
+}
+.off-canvas {
+	width: 100%;
+	// canvas content background
+	background-color: black;
+}
+
+.off-canvas-wrapper {
+	// white-space background
+	background-color: black;
+}
+
+// off-canvas shadow
+.off-canvas-content {
+	box-shadow: none !important;
+}
+
+// off-canvas content styling
+.nav {
+
+	a {
+		color: white;
+	}
+
+	.link {
+		border-bottom: 1px solid white;
+		margin-bottom: 10px;
+
+		a {
+			padding-left: 0;
+			font-size: 20px;
+		}
+	}
+
+	.menu {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+	
+}
+
+
+
+
+
 .hero1 {
 	height: 100vh;
 	background-color: white;
 
-	.content {
-		margin-left: 12px;
+	.hamburger {
+		background-color: transparent;
+		color: black;
+		font-size: 32px;
+		font-weight: 700;
+		border: 0px;
+		padding: 0px;
+		float: right;
+		margin-right: 20px;
 		margin-top: 20px;
+	}
+
+	.content {
+		padding-left: 12px;
 		color: black;
 		text-align: left;
 
 		h1 {
 			font-family: 'Montserrat';
 			font-size: 48px;
-			margin: 0;
+			margin-bottom: 15px;
 		}
 
 		h2 {
+			font-family: 'Avenir';
 			font-size: 24px;
-			margin: 0;
+			margin: 0px;
+			color: #8A8A8A;
 		}
 	}
 }
@@ -45,6 +119,7 @@ $mobile-font-size-paragraph: 16px;
 		}
 
 		p {
+			font-family: 'Avenir';
 			font-size: 24px;
 			padding-left: 20px;
 			padding-right: 20px;
@@ -56,6 +131,7 @@ $mobile-font-size-paragraph: 16px;
 		}
 
 		a {
+			font-family: 'Avenir';
 			margin-left: 20px;
 			font-size: 18px;
 			border: 1px solid white;
@@ -81,6 +157,7 @@ $mobile-font-size-paragraph: 16px;
 			position: relative;
 
 			h4 {
+				font-family: 'Avenir';
 				padding-left: 20px;
 				display: inline;
 				font-size: 18px;
