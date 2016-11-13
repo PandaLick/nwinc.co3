@@ -148,6 +148,11 @@
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  .nav .link {
+    margin-bottom: 20px; }
+    .nav .link a {
+      font-size: 36px;
+      margin-bottom: 5px; }
   .hero1 {
     padding-left: 20px; }
     .hero1 .content h1 {
