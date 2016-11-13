@@ -3905,26 +3905,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/index.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/index-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/mobileHome.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/mobileHome-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/img\/blk_nwincTextVertical.png": {
 		"ft": 32768,
 		"iS": 48455,
@@ -4137,12 +4117,6 @@
 		"oAP": "\/js\/min\/app-min.js.map",
 		"oF": 0
 		},
-	"\/mobileHome.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/mobileHome.html",
-		"oF": 0
-		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -4228,19 +4202,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/index.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/mobileHome.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/mobileHome.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

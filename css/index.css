@@ -1,173 +1,188 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../res/Avenir.ttc") format("truetype"); }
+
 .fullWidth {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   max-width: initial; }
 
-.projectRow:first-of-type {
-  padding-top: 55px; }
+.is-open-right {
+  transform: translate(-100%); }
 
-.projectRow {
-  padding: 0px 0px; }
-  .projectRow .projectCont h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Open Sans', serif; }
-  .projectRow .projectCont p {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', serif; }
-  .projectRow .portfolio {
-    min-height: 188px;
-    background: #138FE7;
-    position: relative; }
-    .projectRow .portfolio .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 25px; }
-  .projectRow .hwad {
-    min-height: 188px;
-    background: url("../img/hwad.jpg") no-repeat center center;
-    background-size: 151%;
-    position: relative; }
-    .projectRow .hwad .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 25px;
-      background-color: rgba(0, 0, 0, 0.3); }
-  .projectRow .ksctool {
-    min-height: 188px;
-    background: url("../img/ksctoolCover.png") no-repeat center center;
-    background-size: 151%;
-    position: relative; }
-    .projectRow .ksctool .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 25px;
-      background-color: rgba(0, 0, 0, 0.3); }
-  .projectRow .uachieve {
-    min-height: 188px;
-    background: url("../img/uachieve.jpg") no-repeat center center;
-    background-size: 151%;
-    position: relative; }
-    .projectRow .uachieve .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 25px;
-      background-color: rgba(0, 0, 0, 0.3); }
-  .projectRow .hackthehill {
-    min-height: 188px;
-    background: url("../img/hackthehill.jpg") no-repeat center center;
-    background-size: 151%;
-    position: relative; }
-    .projectRow .hackthehill .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 25px;
-      background-color: rgba(0, 0, 0, 0.3); }
-  .projectRow .naauao {
-    min-height: 188px;
-    background: url("../img/naauao.jpeg") no-repeat center center;
-    background-size: 190%;
-    position: relative; }
-    .projectRow .naauao .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 25px;
-      background-color: rgba(0, 0, 0, 0.3); }
+.off-canvas.position-right {
+  right: -100% !important;
+  top: 0;
+  width: 100% !important; }
 
-.footerRow {
-  margin-top: 100px;
-  height: 100px;
-  padding-left: 25px;
-  padding-right: 25px; }
-  .footerRow .footer {
-    border-top: 1px solid black;
-    padding-top: 40px; }
-    .footerRow .footer h4 {
-      display: inline;
-      font-size: 14px;
-      letter-spacing: 2px; }
-    .footerRow .footer .socialButton {
-      float: right;
-      width: 40px;
-      height: 40px;
-      margin: 0px 3px;
-      border-radius: 100%;
-      border: 2px solid black;
-      position: relative; }
-      .footerRow .footer .socialButton i {
+.off-canvas {
+  width: 100%;
+  background-color: black; }
+
+.off-canvas-wrapper {
+  background-color: black; }
+
+.off-canvas-content {
+  box-shadow: none !important; }
+
+.nav a {
+  color: white; }
+
+.nav .link {
+  border-bottom: 1px solid white;
+  margin-bottom: 10px; }
+  .nav .link a {
+    padding-left: 0;
+    font-size: 20px; }
+
+.nav .menu {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; }
+
+.hero1 {
+  height: 100vh;
+  background-color: white;
+  background: url("/img/nick.gif") no-repeat top;
+  background-size: cover; }
+  .hero1 .hamburger {
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    border: 0px;
+    padding: 0px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px; }
+  .hero1 .content {
+    margin-top: 50%;
+    transform: translateY(-34px);
+    color: white;
+    text-align: left; }
+    .hero1 .content .headers {
+      margin-left: 12px; }
+    .hero1 .content h1 {
+      font-family: 'Montserrat';
+      font-size: 48px;
+      margin-bottom: 15px; }
+    .hero1 .content h2 {
+      font-family: 'Avenir';
+      font-size: 24px;
+      margin: 0px;
+      color: white; }
+    .hero1 .content .arrowCont {
+      top: 200px;
+      height: 100%;
+      position: relative;
+      padding: 0; }
+      .hero1 .content .arrowCont .arrow {
+        color: #8A8A8A;
         position: absolute;
-        top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%); }
-    .footerRow .footer .linkedin:hover {
-      border: 1px solid #0077b5;
-      background: #0077b5; }
-    .footerRow .footer .github:hover {
-      border: 1px solid #999999;
-      background: #999999; }
-    .footerRow .footer .twitter:hover {
-      border: 1px solid #1da1f2;
-      background: #1da1f2; }
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        margin: 0; }
 
-/* Small only */
+.hero2 {
+  height: 100vh;
+  background-color: black; }
+  .hero2 .content {
+    padding-top: 60px;
+    color: white; }
+    .hero2 .content h1 {
+      font-size: 48px;
+      font-family: 'Montserrat';
+      padding-left: 20px; }
+    .hero2 .content p {
+      font-family: 'Avenir';
+      font-size: 24px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .hero2 .content p span {
+        text-decoration: line-through; }
+    .hero2 .content a {
+      font-family: 'Avenir';
+      margin-left: 20px;
+      font-size: 18px;
+      border: 1px solid white;
+      background-color: transparent; }
+  .hero2 .border {
+    width: 90%;
+    border-top: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px; }
+  .hero2 .footer {
+    padding-bottom: 40px; }
+    .hero2 .footer .footerRow {
+      position: relative; }
+      .hero2 .footer .footerRow h4 {
+        font-family: 'Avenir';
+        padding-left: 20px;
+        display: inline;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: white;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%); }
+      .hero2 .footer .footerRow .socialButton {
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin: 0px 5px;
+        border-radius: 100%;
+        border: 2px solid white;
+        position: relative; }
+        .hero2 .footer .footerRow .socialButton i {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white; }
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  .projectRow {
-    padding: 0px 55px; }
-    .projectRow .projectCont p {
-      font-size: 20px; }
-    .projectRow .portfolio {
-      min-height: 447px; }
-      .projectRow .portfolio .card {
-        padding: 50px; }
-    .projectRow .hwad {
-      min-height: 447px;
-      background-size: 150%; }
-      .projectRow .hwad .card {
-        padding: 50px; }
-    .projectRow .ksctool {
-      min-height: 447px;
-      background-size: 150%; }
-      .projectRow .ksctool .card {
-        padding: 50px; }
-    .projectRow .uachieve {
-      min-height: 447px;
-      background-size: 120%; }
-      .projectRow .uachieve .card {
-        padding: 50px; }
-    .projectRow .hackthehill {
-      min-height: 447px;
-      background-size: 120%; }
-      .projectRow .hackthehill .card {
-        padding: 50px; }
-    .projectRow .naauao {
-      min-height: 447px;
-      background-size: 150%; }
-      .projectRow .naauao .card {
-        padding: 50px; }
+  .hero1 {
+    padding-left: 20px; }
+    .hero1 .content h1 {
+      font-size: 72px; }
+    .hero1 .content h2 {
+      font-size: 36px; }
+    .hero1 .content .arrowCont {
+      top: 250px; }
+  .hero2 {
+    position: relative; }
+    .hero2 .content {
+      padding-left: 50px;
+      padding-right: 50px; }
+      .hero2 .content h1 {
+        font-size: 72px; }
+      .hero2 .content p {
+        font-size: 36px;
+        line-height: 200%; }
+      .hero2 .content a {
+        margin-top: 50px;
+        font-size: 27px; }
+    .hero2 .border {
+      width: 79%; }
+    .hero2 .footer {
+      padding-bottom: 50px;
+      position: absolute;
+      bottom: 0; }
+      .hero2 .footer .footerRow h4 {
+        font-size: 24px;
+        left: 60px; }
+      .hero2 .footer .footerRow .socialButton {
+        right: 60px;
+        width: 65px;
+        height: 65px; } }
 
-  .footerRow {
-    padding-left: 55px;
-    padding-right: 55px; }
-    .footerRow .footer h4 {
-      font-size: 16px; }
-    .footerRow .footer .socialButton {
-      margin: 0px 8px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */

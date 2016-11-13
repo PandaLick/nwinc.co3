@@ -1,13 +1,7 @@
-// $primary-color: #1e364a;
-// $secondary-color: #80CEBE;
-// $tertiary-color: #70AFA7;
-// $quaternary-color: #95A3AA;
-// $primary-font: 'Montserrat', sans-serif;
-// $secondary-font: 'Avenir', sans-serif;
-$desktop-font-size-header: 32px;
-$mobile-font-size-header: 24px;
-$desktop-font-size-paragraph: 18px;
-$mobile-font-size-paragraph: 16px;
+@font-face {
+  font-family: "Avenir";
+  src: url("../res/Avenir.ttc") format("truetype"); 
+}
 
 .fullWidth {
    width: 100%;
@@ -16,276 +10,275 @@ $mobile-font-size-paragraph: 16px;
    max-width: initial;
 }
 
-.projectRow:first-of-type {
-	padding-top: 55px;
+// off-canvas
+// 100% width
+.is-open-right {
+	transform: translate(-100%);
+}
+.off-canvas.position-right {
+	right: -100% !important;
+	top: 0;
+	width: 100% !important;
+}
+.off-canvas {
+	width: 100%;
+	// canvas content background
+	background-color: black;
 }
 
-.projectRow {
+.off-canvas-wrapper {
+	// white-space background
+	background-color: black;
+}
 
-	padding: 0px 0px;
+// off-canvas shadow
+.off-canvas-content {
+	box-shadow: none !important;
+}
 
-	.projectCont {
+// off-canvas content styling
+.nav {
+
+	a {
+		color: white;
+	}
+
+	.link {
+		border-bottom: 1px solid white;
+		margin-bottom: 10px;
+
+		a {
+			padding-left: 0;
+			font-size: 20px;
+		}
+	}
+
+	.menu {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+	
+}
+
+.hero1 {
+	height: 100vh;
+	background-color: white;
+	background: url("/img/nick.gif") no-repeat top;
+	background-size: cover;
+
+	.hamburger {
+		background-color: transparent;
+		color: white;
+		font-size: 32px;
+		font-weight: 700;
+		border: 0px;
+		padding: 0px;
+		float: right;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	.content {
+		margin-top: 50%;
+		transform: translateY(-34px);
+		color: white;
+		text-align: left;
+
+		.headers {
+			margin-left: 12px; 
+		}
+
 		h1 {
-			text-align: center;
+			font-family: 'Montserrat';
+			font-size: 48px;
+			margin-bottom: 15px;
+		}
+
+		h2 {
+			font-family: 'Avenir';
+			font-size: 24px;
+			margin: 0px;
 			color: white;
-			font-family: 'Open Sans', serif;
+		}
+
+		.arrowCont {
+			top: 200px;
+			height: 100%;
+			position: relative;
+			padding: 0;
+
+			.arrow {
+				color: #8A8A8A;
+				position: absolute;
+				left: 50%;
+				top: 50%;	
+				transform: translate(-50%, -50%);
+				padding: 0;
+				margin: 0;
+			}	
+		}
+	}
+}
+
+.hero2 {
+	height: 100vh;
+	background-color: black;
+
+	.content {
+		padding-top: 60px;
+		color: white;
+
+		h1 {
+			font-size: 48px;
+			font-family: 'Montserrat';
+			padding-left: 20px;
 		}
 
 		p {
-			text-align: center;
-			color: white;
-			font-size: 20px;
-			font-family: 'Open Sans', serif;
+			font-family: 'Avenir';
+			font-size: 24px;
+			padding-left: 20px;
+			padding-right: 20px;
+
+			span {
+				text-decoration: line-through;
+			}
+
+		}
+
+		a {
+			font-family: 'Avenir';
+			margin-left: 20px;
+			font-size: 18px;
+			border: 1px solid white;
+			background-color: transparent;
 		}
 	}
 
-	.portfolio {
-		min-height: 188px;
-		background: #138FE7;
-
-		position: relative;
-
-		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-
-			padding: 25px;
-			// background-color: rgba(0,0,0,0.3);
-		}
+	.border {
+		width: 90%;
+		border-top: 1px solid white;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		margin-bottom: 40px;
 	}
-
-	.hwad {
-		min-height: 188px;
-		background: url('../img/hwad.jpg') no-repeat center center; 
-		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
-
-		position: relative;
-
-		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-
-			padding: 25px;
-			background-color: rgba(0,0,0,0.3);
-		}
-	}
-	.ksctool {
-		min-height: 188px;
-		background: url('../img/ksctoolCover.png') no-repeat center center; 
-		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
-
-		position: relative;
-
-		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-
-			padding: 25px;
-			background-color: rgba(0,0,0,0.3);
-		}
-	}
-	.uachieve {
-		min-height: 188px;
-		background: url('../img/uachieve.jpg') no-repeat center center; 
-		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
-
-		position: relative;
-
-		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-
-			padding: 25px;
-			background-color: rgba(0,0,0,0.3);
-		}
-	}
-	.hackthehill {
-		min-height: 188px;
-		background: url('../img/hackthehill.jpg') no-repeat center center; 
-		background-size: 151%; //this will change along with it's med-media-query depending on img dimensions
-
-		position: relative;
-
-		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-
-			padding: 25px;
-			background-color: rgba(0,0,0,0.3);
-		}
-	}
-	.naauao {
-		min-height: 188px;
-		background: url('../img/naauao.jpeg') no-repeat center center; 
-		background-size: 190%; //this will change along with it's med-media-query depending on img dimensions
-
-		position: relative;
-
-		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-
-			padding: 25px;
-			background-color: rgba(0,0,0,0.3);
-		}
-	}
-}
-
-// footer
-.footerRow {
-
-	margin-top: 100px;
-
-	height: 100px;
-
-	padding-left: 25px;
-	padding-right: 25px;
 
 	.footer {
-		border-top: 1px solid black;
+		
+		padding-bottom: 40px;
 
-		padding-top: 40px;
-
-		h4 {
-			display: inline;
-			font-size: 14px;
-			letter-spacing: 2px;
-		}
-
-		.socialButton {
-			float: right;
-			width: 40px;
-			height: 40px;
-
-			margin: 0px 3px;
-			border-radius: 100%;
-			border: 2px solid black;
+		.footerRow {
 
 			position: relative;
 
-			i {
-				position: absolute;
+			h4 {
+				font-family: 'Avenir';
+				padding-left: 20px;
+				display: inline;
+				font-size: 18px;
+				letter-spacing: 2px;
+				color: white;
 				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
+				position: absolute;
+				transform: translateY(-50%);
 			}
-		}
 
-		.linkedin:hover {
-			border: 1px solid #0077b5;
-			background: #0077b5;
-		}
+			.socialButton {
+				float: right;
+				width: 50px;
+				height: 50px;
 
-		.github:hover {
-			border: 1px solid #999999;
-			background: #999999;
-		}
+				margin: 0px 5px;
+				border-radius: 100%;
+				border: 2px solid white;
 
-		.twitter:hover {
-			border: 1px solid #1da1f2;
-			background: #1da1f2;
+				position: relative;
+
+				i {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					color: white;
+				}
+			}
 		}
 	}
 }
-
-/* Small only */
-@media screen and (max-width: 39.9375em) {}
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
-.projectRow {
+	.hero1 {
+		padding-left: 20px;
 
-	padding: 0px 55px;
+		.content {
+			h1 {
+				font-size: 72px;
+			}
 
-	.projectCont {
-		p {
-			font-size: 20px;
+			h2 {
+				font-size: 36px;
+			}
+
+			.arrowCont {
+				top: 250px;
+			}
 		}
 	}
 
-	.portfolio {
-		min-height: 447px;
+	.hero2 {
+		position: relative;
 
-		.card {
-			padding: 50px;
+		.content {
+			padding-left: 50px;
+			padding-right: 50px;
+
+			h1 {
+				font-size: 72px;
+			}
+
+			p {
+				font-size: 36px;
+				line-height: 200%;
+			}
+
+			a {
+				margin-top: 50px;
+				font-size: 27px;
+			}
 		}
-	}
+	
 
-	.hwad {
-		min-height: 447px;
-		background-size: 150%; //this will change along with it's med-media-query depending on img dimensions
-
-		.card {
-			padding: 50px;
+		.border {
+			width: 79%;
 		}
-	}
-
-	.ksctool {
-		min-height: 447px;
-		background-size: 150%; //this will change along with it's med-media-query depending on img dimensions
-
-		.card {
-			padding: 50px;
-		}
-	}
-	.uachieve {
-		min-height: 447px;
-		background-size: 120%; //this will change along with it's med-media-query depending on img dimensions
-
-		.card {
-			padding: 50px;
-		}
-	}
-	.hackthehill {
-		min-height: 447px;
-		background-size: 120%; //this will change along with it's med-media-query depending on img dimensions
-
-		.card {
-			padding: 50px;
-		}
-	}
-	.naauao {
-		min-height: 447px;
-		background-size: 150%; //this will change along with it's med-media-query depending on img dimensions
-
-		.card {
-			padding: 50px;
-		}
-	}
-}
-
-	// footer
-	.footerRow {
-
-		padding-left: 55px;
-		padding-right: 55px;
 
 		.footer {
 
-			h4 {
-				font-size: 16px;
-			}
+			padding-bottom: 50px;
 
-			.socialButton {
+			position: absolute;
+			bottom: 0;
 
-				margin: 0px 8px;
-
+			.footerRow {
+				h4 {
+					font-size: 24px;
+					left: 60px;
+				}
+				.socialButton {
+					right: 60px;
+					width: 65px;
+					height: 65px;
+				}
 			}
 		}
+
 	}
+
 }
 
 /* Medium only */
@@ -296,3 +289,4 @@ $mobile-font-size-paragraph: 16px;
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
