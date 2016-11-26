@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19142",
+"creatorBuild": "19127",
 "files": {
 	"\/bower.json": {
 		"fileType": 524288,
@@ -4454,37 +4454,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/mobileHome.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/mobileHome.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/img\/blk_nwincTextVertical.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48455,
-		"inputAbbreviatedPath": "\/img\/blk_nwincTextVertical.png",
-		"outputAbbreviatedPath": "\/img\/blk_nwincTextVertical.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/fern.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 983745,
-		"inputAbbreviatedPath": "\/img\/fern.png",
-		"outputAbbreviatedPath": "\/img\/fern.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/hackthehill.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4650,24 +4619,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/nwincTextHorizontal.png": {
+	"\/img\/nickSig.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2945,
-		"inputAbbreviatedPath": "\/img\/nwincTextHorizontal.png",
-		"outputAbbreviatedPath": "\/img\/nwincTextHorizontal.png",
+		"initialSize": 77599,
+		"inputAbbreviatedPath": "\/img\/nickSig.png",
+		"outputAbbreviatedPath": "\/img\/nickSig.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/nwinctextvertical.png": {
+	"\/img\/nickSigWhite.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4485,
-		"inputAbbreviatedPath": "\/img\/nwinctextvertical.png",
-		"outputAbbreviatedPath": "\/img\/nwinctextvertical.png",
+		"initialSize": 98756,
+		"inputAbbreviatedPath": "\/img\/nickSigWhite.png",
+		"outputAbbreviatedPath": "\/img\/nickSigWhite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4724,15 +4693,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/mobileHome.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/mobileHome.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/package.json": {
 		"fileType": 524288,
@@ -4807,22 +4767,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/index.scss",
 		"outputAbbreviatedPath": "\/css\/index.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/mobileHome.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/mobileHome.scss",
-		"outputAbbreviatedPath": "\/css\/mobileHome.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
