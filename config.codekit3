@@ -7,7 +7,7 @@
 		"uuidString": "11FFBA6B-E73F-4454-8960-54A5E6A243DE"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -3905,21 +3905,15 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/img\/blk_nwincTextVertical.png": {
-		"ft": 32768,
-		"iS": 48455,
-		"oA": 0,
-		"oAP": "\/img\/blk_nwincTextVertical.png",
+	"\/css\/index.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/index-min.css",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/fern.png": {
-		"ft": 32768,
-		"iS": 983745,
-		"oA": 0,
-		"oAP": "\/img\/fern.png",
-		"oF": 0,
-		"opt": 0
+		"oS": 0
 		},
 	"\/img\/hackthehill.jpg": {
 		"ft": 16384,
@@ -4055,19 +4049,19 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/nwincTextHorizontal.png": {
+	"\/img\/nickSig.png": {
 		"ft": 32768,
-		"iS": 2945,
+		"iS": 77599,
 		"oA": 0,
-		"oAP": "\/img\/nwincTextHorizontal.png",
+		"oAP": "\/img\/nickSig.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/nwinctextvertical.png": {
+	"\/img\/nickSigWhite.png": {
 		"ft": 32768,
-		"iS": 4485,
+		"iS": 98756,
 		"oA": 0,
-		"oAP": "\/img\/nwinctextvertical.png",
+		"oAP": "\/img\/nickSigWhite.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4659,6 +4653,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -4822,6 +4820,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -5187,6 +5189,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -5418,6 +5424,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -6251,6 +6261,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

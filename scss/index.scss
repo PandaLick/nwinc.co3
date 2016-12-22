@@ -53,6 +53,35 @@
 		}
 	}
 
+	.theFeed {
+		font-size: 20px;
+		padding-top: 9px;
+		margin-bottom: 30px;
+	}
+
+	.theFeedMenu {
+		padding-left: 42px;
+
+		.small-12 {
+			margin-bottom: 20px;
+		}
+
+		i {
+			color: white;
+			display: block;
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			color: white;
+			display: inline;
+		}
+
+		h3 {
+			color: #667;
+		}
+	}
+
 	.menu {
 		width: 80%;
 		margin-left: auto;
@@ -63,8 +92,7 @@
 }
 
 .hero1 {
-	height: 100vh;
-	background-color: white;
+	height: 100vh !important;
 	background: url("/img/nick.gif") no-repeat top;
 	background-size: cover;
 
@@ -76,60 +104,20 @@
 		border: 0px;
 		padding: 0px;
 		float: right;
-		margin-right: 20px;
+		margin-right: 10px;
 		margin-top: 20px;
 	}
 
-	.content {
-		margin-top: 50%;
-		transform: translateY(-34px);
-		color: white;
-		text-align: left;
-
-		.headers {
-			margin-left: 12px; 
-		}
-
-		h1 {
-			font-family: 'Montserrat';
-			font-size: 48px;
-			margin-bottom: 15px;
-		}
-
-		h2 {
-			font-family: 'Avenir';
-			font-size: 24px;
-			margin: 0px;
-			color: white;
-		}
-
-		.arrowCont {
-			top: 150px;
-			height: 100%;
-			position: relative;
-			padding: 0;
-
-			.arrow {
-				color: #8A8A8A;
-				position: absolute;
-				left: 50%;
-				top: 50%;	
-				transform: translate(-50%, -50%);
-				padding: 0;
-				margin: 0;
-			}	
-		}
-	}
-}
-
-.hero2 {
-	height: 100vh;
-	background: url("/img/nick.gif") no-repeat top;
-	background-size: cover;
 
 	.content {
-		padding-top: 60px;
 		color: white;
+
+		.sig {
+			padding-top: 30px;
+			margin-left: 25px;
+			margin-bottom: 30px;
+		}
+
 
 		h1 {
 			font-size: 48px;
@@ -163,14 +151,12 @@
 		border-top: 1px solid white;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 50px;
-		margin-bottom: 40px;
+		margin-top: 30px;
+		margin-bottom: 20px;
 	}
 
 	.footer {
 		
-		padding-bottom: 40px;
-
 		.footerRow {
 
 			position: relative;
