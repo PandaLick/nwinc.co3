@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Avenir";
   src: url("../res/Avenir.ttc") format("truetype"); }
+
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -27,12 +28,14 @@
 
 .nav a {
   color: white; }
+
 .nav .link {
   border-bottom: 1px solid white;
   margin-bottom: 10px; }
   .nav .link a {
     padding-left: 0;
     font-size: 20px; }
+
 .nav .menu {
   width: 80%;
   margin-left: auto;
@@ -86,7 +89,8 @@
 
 .hero2 {
   height: 100vh;
-  background-color: black; }
+  background: url("/img/nick.gif") no-repeat top;
+  background-size: cover; }
   .hero2 .content {
     padding-top: 60px;
     color: white; }
@@ -128,6 +132,12 @@
         top: 50%;
         position: absolute;
         transform: translateY(-50%); }
+      .hero2 .footer .footerRow .twitter:hover {
+        background-color: #55acee; }
+      .hero2 .footer .footerRow .github:hover {
+        background-color: #000; }
+      .hero2 .footer .footerRow .linkedin:hover {
+        background: #007bb5; }
       .hero2 .footer .footerRow .socialButton {
         float: right;
         width: 50px;
@@ -150,7 +160,6 @@
     .nav .link a {
       font-size: 36px;
       margin-bottom: 5px; }
-
   .hero1 {
     padding-left: 20px; }
     .hero1 .content {
@@ -161,7 +170,6 @@
         font-size: 36px; }
       .hero1 .content .arrowCont {
         top: 200px; }
-
   .hero2 {
     position: relative; }
     .hero2 .content {
@@ -188,6 +196,7 @@
         right: 60px;
         width: 65px;
         height: 65px; } }
+
 /* Medium only */
 /* Large and up */
 /* Large only */
