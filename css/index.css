@@ -62,7 +62,7 @@
   margin-top: 50px; }
 
 .hero1 {
-  height: 100vh !important;
+  height: 100vh;
   background: url("/img/nick.gif") no-repeat top;
   background-size: cover; }
   .hero1 .hamburger {
@@ -140,44 +140,46 @@
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  .nav .link {
-    margin-bottom: 20px; }
-    .nav .link a {
-      font-size: 36px;
-      margin-bottom: 5px; }
+  .nav .theFeedMenu h2 {
+    font-size: 20px; }
+  .nav .theFeedMenu h3 {
+    font-size: 16px; }
   .hero1 {
-    padding-left: 20px; }
+    position: relative;
+    height: 150vh; }
+    .hero1 .hamburger {
+      background-color: transparent;
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      border: 0px;
+      padding: 0px;
+      float: right;
+      margin-right: 10px;
+      margin-top: 0px; }
     .hero1 .content {
-      margin-top: 40%; }
-      .hero1 .content h1 {
-        font-size: 72px; }
-      .hero1 .content h2 {
-        font-size: 36px; }
-      .hero1 .content .arrowCont {
-        top: 200px; }
-  .hero2 {
-    position: relative; }
-    .hero2 .content {
+      padding-top: 30px;
       padding-left: 50px;
       padding-right: 50px; }
-      .hero2 .content h1 {
+      .hero1 .content h1 {
         font-size: 72px; }
-      .hero2 .content p {
-        font-size: 36px;
-        line-height: 200%; }
-      .hero2 .content a {
-        margin-top: 50px;
-        font-size: 27px; }
-    .hero2 .border {
-      width: 79%; }
-    .hero2 .footer {
-      padding-bottom: 50px;
+      .hero1 .content p {
+        font-size: 24px;
+        line-height: 180%; }
+      .hero1 .content a {
+        margin-top: 30px;
+        font-size: 20px; }
+    .hero1 .border {
+      width: 79%;
+      padding-bottom: 15px; }
+    .hero1 .footer {
+      padding-bottom: 30px;
       position: absolute;
       bottom: 0; }
-      .hero2 .footer .footerRow h4 {
-        font-size: 24px;
+      .hero1 .footer .footerRow h4 {
+        font-size: 20px;
         left: 60px; }
-      .hero2 .footer .footerRow .socialButton {
+      .hero1 .footer .footerRow .socialButton {
         right: 60px;
         width: 65px;
         height: 65px; } }

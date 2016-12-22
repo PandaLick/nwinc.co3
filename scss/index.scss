@@ -92,7 +92,7 @@
 }
 
 .hero1 {
-	height: 100vh !important;
+	height: 100vh;
 	background: url("/img/nick.gif") no-repeat top;
 	background-size: cover;
 
@@ -212,40 +212,34 @@
 @media screen and (min-width: 40em) {
 
 	.nav {
-		.link {
-			margin-bottom: 20px;
-			a {
-				font-size: 36px;
-				margin-bottom: 5px;
+		.theFeedMenu {
+			h2 {
+				font-size: 20px;
+			}
+			h3 {
+				font-size: 16px;
 			}
 		}
 	}
 
 	.hero1 {
-		padding-left: 20px;
-
-		.content {
-
-			margin-top: 40%;
-
-			h1 {
-				font-size: 72px;
-			}
-
-			h2 {
-				font-size: 36px;
-			}
-
-			.arrowCont {
-				top: 200px;
-			}
-		}
-	}
-
-	.hero2 {
 		position: relative;
+		height: 150vh;
+
+		.hamburger {
+			background-color: transparent;
+			color: white;
+			font-size: 32px;
+			font-weight: 700;
+			border: 0px;
+			padding: 0px;
+			float: right;
+			margin-right: 10px;
+			margin-top: 0px;
+		}
 
 		.content {
+			padding-top: 30px;
 			padding-left: 50px;
 			padding-right: 50px;
 
@@ -254,31 +248,32 @@
 			}
 
 			p {
-				font-size: 36px;
-				line-height: 200%;
+				font-size: 24px;
+				line-height: 180%;
 			}
 
 			a {
-				margin-top: 50px;
-				font-size: 27px;
+				margin-top: 30px;
+				font-size: 20px;
 			}
 		}
 	
 
 		.border {
 			width: 79%;
+			padding-bottom: 15px;
 		}
 
 		.footer {
 
-			padding-bottom: 50px;
+			padding-bottom: 30px;
 
 			position: absolute;
 			bottom: 0;
 
 			.footerRow {
 				h4 {
-					font-size: 24px;
+					font-size: 20px;
 					left: 60px;
 				}
 				.socialButton {
