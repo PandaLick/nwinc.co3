@@ -3895,23 +3895,23 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/index.css": {
+	"\/css\/app-min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/css\/index-min.css",
+		"oAP": "\/css\/app-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/index-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/index-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -4182,9 +4182,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "css\/app.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/app-min.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/index.scss": {
@@ -4195,9 +4195,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/index.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/css\/index-min.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		}
 	},

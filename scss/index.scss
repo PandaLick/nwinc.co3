@@ -64,6 +64,11 @@
 
 		.small-12 {
 			margin-bottom: 20px;
+			padding-left: 0px;
+
+			.small-3 {
+				padding-left: 0px;
+			}
 		}
 
 		i {
@@ -213,6 +218,14 @@
 
 	.nav {
 		.theFeedMenu {
+
+			.small-12 {
+				padding-left: 30px;
+				.small-3 {
+					padding-left: 10px;
+				}
+			}
+
 			h2 {
 				font-size: 20px;
 			}
