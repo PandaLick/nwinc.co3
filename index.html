@@ -5,9 +5,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nickwong.io</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app-min.css">
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat" rel="stylesheet">
   </head>
   <body>
@@ -24,48 +24,57 @@
                 <span aria-hidden="true">&times;</span>
               </button>
 
-              <!-- Menu -->
+              <!-- nav Menu -->
               <ul class="vertical menu">
                 <li class="link"><a href="#">Home</a></li>
                 <li class="link"><a href="#">Portfolio</a></li>
                 <li class="link"><a href="#">About</a></li>
-                <li class="link"><a href="#">Contact</a></li>
+                <h2 class="theFeed">The Feed</h2>
               </ul>
+
+              <!-- the feed -->
+              <div class="theFeedMenu row">
+                <div class="small-12 columns">
+                  <div class="small-3 columns">
+                    <i class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+                  </div>
+                  <div class="small-9 columns">
+                    <h2>Twitter</h2>
+                    <h3>@nickwongio</h3>
+                  </div>
+                </div>
+                <div class="small-12 columns">
+                  <div class="small-3 columns">
+                    <i class="fa fa-3x fa-github" aria-hidden="true"></i>
+                  </div>
+                  <div class="small-9 columns">
+                    <h2>GitHub</h2>
+                    <h3>niwong</h3>
+                  </div>
+                </div>
+                <div class="small-12 columns">
+                  <div class="small-3 columns">
+                    <i class="fa fa-3x fa-linkedin"  aria-hidden="true"></i>
+                  </div>
+                  <div class="small-9 columns">
+                    <h2>LinkedIn</h2>
+                    <h3>Nick Wong</h3>  
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
         </div>
+
         <!-- content wrapper -->
         <div class="off-canvas-content" data-off-canvas-content>
-
           <div class="hero1">
-            <div class="row nav">
-              <button type="button" class="button hamburger" data-toggle="offCanvas">&#9776</button>
-            </div>
-
-            <div class="row content fullWidth">
-              <div class="small-12 columns headers">
-              <img src="./img/nickSigWhite.png" style="width: 50%; color: ">
-                <h1>nickwong.io</h1>
-                <h2>full-stack developer</h2>
-                <h2>entrepreneur</h2>
-                <h2>student</h2>
-              </div>
-
-            <div class="row">
-              <div class="small-12 columns arrowCont">
-                <i class="fa fa-2x fa-angle-down arrow show-for-small-only" aria-hidden="true"></i>
-                <i class="fa fa-3x fa-angle-down arrow show-for-medium" aria-hidden="true"></i>
-              </div>
-            </div>
-              
-            </div>
-          </div>
-          <div class="hero2">
             <div class="row content fullWidth">
               <div class="small-12 columns">
-                <h1>Hi</h1>
-                <p>I'm Nick and I'm a 16-year-old developer, entrepreneur, and student <span>ready to make a change in the world</span> revolutionizing the way business is conducted in Hawaii.</p>
+                <img src="./img/nickSigWhite.png"  class="sig show-for-small-only" style="width: 50%;">
+                <button type="button" class="button hamburger" data-toggle="offCanvas">&#9776</button>
+                <!-- <h1>Hi</h1> -->
+                <p>I'm Nick and I'm a 17-year-old web developer, aspiring-entrepreneur, and student <span>ready to make a change in the world</span> revolutionizing the way business is conducted in Hawaii.</p>
                 <a href="#" class="button">See how</a>
               </div>
             </div>
@@ -73,15 +82,15 @@
               <div class="border"></div>
               <div class="small-12 columns footerRow">
                 <h4>nickwong.io</h4>
-                <div class="socialButton">
-                <i class="fa fa-linkedin show-for-small-only"  aria-hidden="true"></i>
+                <div class="socialButton linkedin">
+                  <i class="fa fa-linkedin show-for-small-only"  aria-hidden="true"></i>
                   <i class="fa fa-2x fa-linkedin show-for-medium"  aria-hidden="true"></i>
                 </div>
-                <div class="socialButton">
+                <div class="socialButton github">
                   <i class="fa fa-github show-for-small-only" aria-hidden="true"></i>
                   <i class="fa fa-2x fa-github show-for-medium" aria-hidden="true"></i>
                 </div>
-                <div class="socialButton">
+                <div class="socialButton twitter">
                   <i class="fa fa-twitter show-for-small-only" aria-hidden="true"></i>
                   <i class="fa fa-2x fa-twitter show-for-medium" aria-hidden="true"></i>
                 </div>

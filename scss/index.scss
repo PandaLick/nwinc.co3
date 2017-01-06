@@ -53,18 +53,55 @@
 		}
 	}
 
+	.theFeed {
+		font-size: 20px;
+		padding-top: 9px;
+		margin-bottom: 30px;
+	}
+
+	.theFeedMenu {
+		padding-left: 42px;
+
+		.small-12 {
+			margin-bottom: 20px;
+			padding-left: 0px;
+
+			.small-3 {
+				padding-left: 0px;
+			}
+		}
+
+		i {
+			color: white;
+			display: block;
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			color: white;
+			display: inline;
+		}
+
+		h3 {
+			color: #667;
+		}
+	}
+
 	.menu {
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 50px;
+
+		h2 {
+			color: white;
+		}
 	}
 	
 }
 
 .hero1 {
 	height: 100vh;
-	background-color: white;
 	background: url("/img/nick.gif") no-repeat top;
 	background-size: cover;
 
@@ -76,59 +113,20 @@
 		border: 0px;
 		padding: 0px;
 		float: right;
-		margin-right: 20px;
+		margin-right: 10px;
 		margin-top: 20px;
 	}
 
-	.content {
-		margin-top: 50%;
-		transform: translateY(-34px);
-		color: white;
-		text-align: left;
-
-		.headers {
-			margin-left: 12px; 
-		}
-
-		h1 {
-			font-family: 'Montserrat';
-			font-size: 48px;
-			margin-bottom: 15px;
-		}
-
-		h2 {
-			font-family: 'Avenir';
-			font-size: 24px;
-			margin: 0px;
-			color: white;
-		}
-
-		.arrowCont {
-			top: 150px;
-			height: 100%;
-			position: relative;
-			padding: 0;
-
-			.arrow {
-				color: #8A8A8A;
-				position: absolute;
-				left: 50%;
-				top: 50%;	
-				transform: translate(-50%, -50%);
-				padding: 0;
-				margin: 0;
-			}	
-		}
-	}
-}
-
-.hero2 {
-	height: 100vh;
-	background-color: black;
 
 	.content {
-		padding-top: 60px;
 		color: white;
+
+		.sig {
+			padding-top: 30px;
+			margin-left: 25px;
+			margin-bottom: 30px;
+		}
+
 
 		h1 {
 			font-size: 48px;
@@ -162,14 +160,12 @@
 		border-top: 1px solid white;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 50px;
-		margin-bottom: 40px;
+		margin-top: 30px;
+		margin-bottom: 20px;
 	}
 
 	.footer {
 		
-		padding-bottom: 40px;
-
 		.footerRow {
 
 			position: relative;
@@ -184,6 +180,18 @@
 				top: 50%;
 				position: absolute;
 				transform: translateY(-50%);
+			}
+
+			.twitter:hover {
+				background-color: #55acee;
+			}
+
+			.github:hover {
+				background-color: #000;
+			}
+
+			.linkedin:hover {
+				background: #007bb5;
 			}
 
 			.socialButton {
@@ -213,40 +221,42 @@
 @media screen and (min-width: 40em) {
 
 	.nav {
-		.link {
-			margin-bottom: 20px;
-			a {
-				font-size: 36px;
-				margin-bottom: 5px;
+		.theFeedMenu {
+
+			.small-12 {
+				padding-left: 30px;
+				.small-3 {
+					padding-left: 10px;
+				}
+			}
+
+			h2 {
+				font-size: 20px;
+			}
+			h3 {
+				font-size: 16px;
 			}
 		}
 	}
 
 	.hero1 {
-		padding-left: 20px;
-
-		.content {
-
-			margin-top: 40%;
-
-			h1 {
-				font-size: 72px;
-			}
-
-			h2 {
-				font-size: 36px;
-			}
-
-			.arrowCont {
-				top: 200px;
-			}
-		}
-	}
-
-	.hero2 {
 		position: relative;
+		height: 150vh;
+
+		.hamburger {
+			background-color: transparent;
+			color: white;
+			font-size: 32px;
+			font-weight: 700;
+			border: 0px;
+			padding: 0px;
+			float: right;
+			margin-right: 10px;
+			margin-top: 0px;
+		}
 
 		.content {
+			padding-top: 30px;
 			padding-left: 50px;
 			padding-right: 50px;
 
@@ -255,31 +265,32 @@
 			}
 
 			p {
-				font-size: 36px;
-				line-height: 200%;
+				font-size: 24px;
+				line-height: 180%;
 			}
 
 			a {
-				margin-top: 50px;
-				font-size: 27px;
+				margin-top: 30px;
+				font-size: 20px;
 			}
 		}
 	
 
 		.border {
 			width: 79%;
+			padding-bottom: 15px;
 		}
 
 		.footer {
 
-			padding-bottom: 50px;
+			padding-bottom: 30px;
 
 			position: absolute;
 			bottom: 0;
 
 			.footerRow {
 				h4 {
-					font-size: 24px;
+					font-size: 20px;
 					left: 60px;
 				}
 				.socialButton {
